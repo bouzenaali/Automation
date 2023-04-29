@@ -43,3 +43,15 @@ class MyHandler(FileSystemEventHandler):
                 shutil.move(src_path, dest_path)
 
 
+if __name__ == "__main__":
+    event_handler = MyHandler()
+    observer = Observer()
+    observer.schedule(event_handler, src_dir)
+    observer.start()
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+    
