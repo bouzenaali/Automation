@@ -40,7 +40,12 @@ class MyHandler(FileSystemEventHandler):
                 else:
                     dest_dir = other_dir
                 dest_path = os.path.join(dest_dir, filename)
-                shutil.move(src_path, dest_path)
+                try:
+                    shutil.move(src_path, dest_path)
+                    print(f"Moved {src_path} to {dest_path}")
+                except PermissionError:
+                    print(f"Skipped {src_path} due to permission error")
+
 
 
 if __name__ == "__main__":
