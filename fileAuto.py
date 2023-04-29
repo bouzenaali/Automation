@@ -11,6 +11,7 @@ img_dir = "C:\\Users\pc\Pictures\pic downloads"
 doc_dir = "C:\\Users\pc\Documents\Downloaded_docs"
 exe_dir = "C:\\Users\pc\Downloads\executables"
 zip_dir = 'C:\\Users\pc\Downloads\zipped'
+torrent_dir = 'C:\\Users\pc\Downloads\torrents'
 other_dir = 'C:\\Users\pc\Downloads\other'
 
 # the extensions and the directories they will be moved to
@@ -25,7 +26,9 @@ ext_dir_map = {
     '.doc': doc_dir,
     '.docx': doc_dir,
     '.exe': exe_dir,
-    '.zip': zip_dir
+    '.zip': zip_dir,
+    '.rar': zip_dir,
+    '.torrent': torrent_dir,
 }
 
 # 
