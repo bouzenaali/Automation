@@ -5,13 +5,13 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # the source and the destinations directories
-src_dir = 'C:\Users\pc\Downloads'
-vid_dir = "C:\Users\pc\Videos\videos"
-img_dir = "C:\Users\pc\Pictures\pic downloads"
-doc_dir = "C:\Users\pc\Documents\Downloaded_docs"
-exe_dir = "C:\Users\pc\Downloads\executables"
-zip_dir = 'C:\Users\pc\Downloads\zipped'
-other_dir = 'C:\Users\pc\Downloads\other'
+src_dir = "C:\\Users\pc\Downloads"
+vid_dir = "C:\\Users\pc\Videos\videos"
+img_dir = "C:\\Users\pc\Pictures\pic downloads"
+doc_dir = "C:\\Users\pc\Documents\Downloaded_docs"
+exe_dir = "C:\\Users\pc\Downloads\executables"
+zip_dir = 'C:\\Users\pc\Downloads\zipped'
+other_dir = 'C:\\Users\pc\Downloads\other'
 
 # the extensions and the directories they will be moved to
 ext_dir_map = {
