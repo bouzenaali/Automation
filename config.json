@@ -1,0 +1,20 @@
+{
+    "src_dir": "C:\\\\Users\\pc\\Downloads",
+    "other_dir": "C:\\\\Users\\pc\\Downloads\\other",
+    "ext_dir_map": {
+        ".mp4": "C:\\\\Users\\pc\\Videos\\videos",
+        ".avi": "C:\\\\Users\\pc\\Videos\\videos",
+        ".mkv": "C:\\\\Users\\pc\\Videos\\videos",
+        ".jpg": "C:\\\\Users\\pc\\Pictures\\pic downloads",
+        ".jpeg": "C:\\\\Users\\pc\\Pictures\\pic downloads",
+        ".png": "C:\\\\Users\\pc\\Pictures\\pic downloads",
+        ".pdf": "C:\\\\Users\\pc\\Documents\\Downloaded_docs",
+        ".doc": "C:\\\\Users\\pc\\Documents\\Downloaded_docs",
+        ".docx": "C:\\\\Users\\pc\\Documents\\Downloaded_docs",
+        ".txt": "C:\\\\Users\\pc\\Documents\\Downloaded_docs",
+        ".exe": "C:\\\\Users\\pc\\Downloads\\executables",
+        ".zip": "C:\\\\Users\\pc\\Downloads\\zipped",
+        ".rar": "C:\\\\Users\\pc\\Downloads\\zipped",
+        ".torrent": "C:\\\\Users\\pc\\Downloads\\torrent"
+    }
+}
